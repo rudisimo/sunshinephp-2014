@@ -30,14 +30,17 @@
 
 > By [Evan Coury][2]
 
-### Intro to ZF2
+### Introduction
 
-* ZF2: It's good
-* ZF3: It's better
-* ZF2: Key Features
+* ZF2: It's good.
+* ZF3: It's better!
+* ZF2: Key Features:
   * Zend\ModuleManager: everything is a module
   * Zend\ServiceManager: inversion of control / dependency injection
   * Zend\EventManager: completely event-driven
+
+### Modules
+
 * [Zend Developer Tools][7]
 * Modules can be anything!
   * Plugins
@@ -46,6 +49,15 @@
   * Applications
 * Modules *are* PHP namespaces, same rules apply.
 
+### Configuration
+
+* The order of the `modules` array matters.
+* Modules can only be loaded via `autoload.config.php`.
+
+### Links
+
+* [Evan's Blog][8]
+* [Asset Manager for ZF2][9]
 
 [1]: https://twitter.com/ircmaxell
 [2]: https://twitter.com/evandotpro
@@ -54,3 +66,5 @@
 [5]: http://phpsecurity.org/
 [6]: http://phpsecurity.readthedocs.org/en/latest/
 [7]: https://github.com/zendframework/ZendDeveloperTools
+[8]: http://blog.evan.pro/
+[9]: https://github.com/RWOverdijk/AssetManager

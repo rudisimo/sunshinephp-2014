@@ -1,26 +1,24 @@
-# SunshinePHP 2014
+# Day 1: Tutorials
 
-## Day 1: Tutorials
-
-### Code Review for Security
+## Code Review for Security
 
 > By [Anthony Ferrara][1]
 
-#### Notes
+### Notes
 
 * Do not allow XML input from the user.
 * X-Frame-Options: prevents click-jacking.
 * Strict-Transport-Security: enforces SSL.
 * **PLEASE**, don't use WordPress.
 
-#### Encryption
+### Encryption
 
 * bcrypt
 * scrypt
 * pbkdf2
 * PHPASS
 
-#### Links
+### Links
 
 * [Security Quiz][3]
 * [XSS (Cross Site Scripting) Prevention Cheat Sheet][4]
@@ -28,11 +26,11 @@
 * [Survive The Deep End: PHP Security][6]
 
 
-### ZF2 Modules Workshop
+## ZF2 Modules Workshop
 
 > By [Evan Coury][2]
 
-#### Intro to ZF2
+### Intro to ZF2
 
 * ZF2: It's good
 * ZF3: It's better
@@ -46,8 +44,8 @@
   * Themes
   * Libraries
   * Applications
+* Modules *are* PHP namespaces, same rules apply.
 
----
 
 [1]: https://twitter.com/ircmaxell
 [2]: https://twitter.com/evandotpro

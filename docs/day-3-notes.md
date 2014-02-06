@@ -1,38 +1,35 @@
-# SunshinePHP
+# Day 3: Talks
 
-## Day 3: Talks
-
-### Using Github for more than code
+## Using Github for more than code
 
 > By [Elizabeth Naramore][1]
 
 
 
-### 2
+## 2
 
 > By [][2]
 
 
 
-### 3
+## 3
 
 > By [][3]
 
 
 
-### 4
+## 4
 
 > By [][4]
 
 
 
-### 3
+## 3
 
 > By [][5]
 
 
 
----
 
 [1]: https://twitter.com/ElizabethN
 [2]: 

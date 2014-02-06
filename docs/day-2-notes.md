@@ -30,7 +30,6 @@
 
 
 
-
 [1]: https://twitter.com/ircmaxell
 [2]: https://twitter.com/grmpyprogrammer
 [3]: https://twitter.com/iliaa

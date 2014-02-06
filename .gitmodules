@@ -1,0 +1,3 @@
+[submodule "code/CodeReviewSecurityRepo"]
+	path = code/CodeReviewSecurityRepo
+	url = git@github.com:ircmaxell/CodeReviewSecurityRepo.git

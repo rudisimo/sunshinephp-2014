@@ -13,4 +13,4 @@ This repository holds my notes and any other relevant material for SunshinePHP 2
 
 [1]: http://2014.sunshinephp.com/
 [2]: http://joind.in/event/view/1444
-[3]: https://about.me/rudisimo]
+[3]: https://about.me/rudisimo

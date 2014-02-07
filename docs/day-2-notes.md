@@ -52,7 +52,38 @@
 
 > By [Ilia Alshanetsky][3]
 
+* OWASP Top 10 List (Review)
 
+### Authentication
+
+* Enforce password rules
+* Use `/dev/urandom` for randomness.
+* PHP 5.5 makes password hashing extremely easy.
+* Limit number of sequential unsuccessful requests to 3-5.
+  * Use CAPTCHA.
+  * Multi-factor authentication.
+  * Lock account for 10-15 minutes.
+  * Implement IP address blocks (be very careful).
+* Don't use the typical field names (login, password, username), randomize them with a session salt instead.
+* Tie user sessions to IP address and/or browser.
+* Enforce low session expiry times.
+* Idle time logout after 10 minutes of inactivity.
+* Require re-authentication for profile changes and/or e-commerce activities.
+* Prevent duplicate logins.
+* Use proper security headers:
+  * X-Frame-Options: DENY
+  * Strict-Transport-Security
+* Do not use the GET method to make requests (including Ajax).
+
+### Session Security
+
+* Use only cookies
+* Ensure session ID integrity
+  * Change entropy file to `/dev/urandom` and increase the entropy size.
+* Use HTTPOnly cookies for sessions storage
+* Set Secure session bit (SSL/TLS)
+* Approach ACL with a whitelist, not blacklist method.
+* Audit user activity, look for patterns of unusual activity.
 
 ## Profiling PHP with XHProf
 

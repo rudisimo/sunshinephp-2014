@@ -19,9 +19,8 @@
   * PHPLOC: Summarizes an entire codebase
   * PDepend: Lower Level analysis
   * PHPMD: Finds messy code
-  * Jenkins: Continuous integration
-  * Sonar: Like Jenkins (with a tighter integration)
-* [Splunk][6]: Helps you understand your data
+  * [Sonar][6]: Like Jenkins (with a tighter integration)
+  * [Splunk][7]: Helps you understand your data
 * No single tool has the answer; together they help paint the bigger picture. Make your decisions based on that.
 
 ## Building Testable PHP Applications
@@ -53,4 +52,5 @@
 [3]: https://twitter.com/iliaa
 [4]: https://twitter.com/jonathanklein
 [5]: https://twitter.com/lsmith
-[6]: http://dev.splunk.com/
+[6]: http://www.sonarsource.com/products/editions/
+[7]: http://dev.splunk.com/

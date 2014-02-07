@@ -89,7 +89,21 @@
 
 > By [Jonathan Klein][4]
 
-
+* [XHGui][15]
+* Workflow:
+  * Run XHProf
+  * Find expensive functions
+  * Instrument with StatsD (optional)
+  * Optimize
+* Pro Tips:
+  * Sort by number of calls
+  * Look for multiples of 40
+  * Turn off CPU measurement (save overhead)
+  * Call graphs
+  * Enable via query string parameter (on demand)
+* Takeaways
+  * Profiling is easy
+  * You get what you measure
 
 ## Decoupled CMS
 
@@ -111,3 +125,4 @@
 [12]: https://github.com/vlucas/phpdotenv
 [13]: https://leanpub.com/grumpy-phpunit
 [14]: https://leanpub.com/grumpy-testing
+[15]: https://github.com/perftools/xhgui

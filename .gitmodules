@@ -1,3 +1,12 @@
 [submodule "code/CodeReviewSecurityRepo"]
 	path = code/CodeReviewSecurityRepo
 	url = git@github.com:ircmaxell/CodeReviewSecurityRepo.git
+[submodule "code/ZendSkeletonApplication"]
+	path = code/ZendSkeletonApplication
+	url = git@github.com:zendframework/ZendSkeletonApplication.git
+[submodule "code/ZendDeveloperTools"]
+	path = code/ZendDeveloperTools
+	url = git@github.com:zendframework/ZendDeveloperTools.git
+[submodule "code/PhlyContact"]
+	path = code/PhlyContact
+	url = git@github.com:weierophinney/PhlyContact.git

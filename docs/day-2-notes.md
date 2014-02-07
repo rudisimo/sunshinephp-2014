@@ -4,8 +4,6 @@
 
 > By [Anthony Ferrara][1]
 
-### Code Quality
-
 * The central enemy of reliability is complexity.
 * Cyclomatic Complexity
   * Single Method: 11+ (Very High)
@@ -24,7 +22,7 @@
   * Jenkins: Continuous integration
   * Sonar: Like Jenkins (with a tighter integration)
 * [Splunk][6]: Helps you understand your data
-* No one tool has the answer to everything, together they help paint the bigger picture. Make your decisions based on that.
+* No single tool has the answer; together they help paint the bigger picture. Make your decisions based on that.
 
 ## Building Testable PHP Applications
 

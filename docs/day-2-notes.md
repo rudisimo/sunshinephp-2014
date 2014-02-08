@@ -109,7 +109,7 @@
 
 > By [Lukas Kahwe Smith][5]
 
-
+* [prose.io][16]: content editor for Github
 
 [1]: https://twitter.com/ircmaxell
 [2]: https://twitter.com/grmpyprogrammer
@@ -126,3 +126,4 @@
 [13]: https://leanpub.com/grumpy-phpunit
 [14]: https://leanpub.com/grumpy-testing
 [15]: https://github.com/perftools/xhgui
+[16]: http://prose.io/
